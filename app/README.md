@@ -5,7 +5,8 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 Key Features:
 Implemented canActivate Guard to access Pages of the application.<br>
 Only Authenticated Users (in my app users who are assigned with a role are authenticated users) can access the pages.[authGuard]<br>
-Not all authenticated users can access all the pages[adminGuard]. So i have used Two Guards [adminGuard,authGuard] for canActivate.
+Not all authenticated users can access all the pages[adminGuard]. So i have used Two Guards [adminGuard,authGuard] for canActivate.<br>
+Depending upon the role there are separate pages to be accessed
 
 ## Development server
 

@@ -1,0 +1,38 @@
+.alert-toaster{
+    background-color:red;
+    max-width:50%;
+    margin:auto;
+    margin-bottom:12px;
+    padding:1px;
+    border-radius:4px;
+    color:white;
+    position:relative;
+  
+}
+.closePopup{
+    display:none;
+}
+.close-btn{
+position:absolute;
+right:6px;
+top:2px;
+background-color:transparent;
+color:white;
+font-size:16px;
+}
+.container{
+    max-width:40%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+button{
+    padding:.5em;
+    cursor:pointer;
+    font-weight:bold;
+    border-radius:2px;
+    border:none;
+}
+p{
+    text-align:center;
+}

@@ -1,6 +1,11 @@
 # App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0. But Developed using Angular 16
+
+Key Features:
+Implemented canActivate Guard to access Pages of the application.
+Only Authenticated Users (in my app users who are assigned with a role are authenticated users) can access the pages.[authGuard]
+Not all authenticated users can access all the pages[adminGuard]. So i have used Two Guards [adminGuard,authGuard] for canActivate.
 
 ## Development server
 

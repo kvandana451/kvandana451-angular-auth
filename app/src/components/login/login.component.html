@@ -1,0 +1,11 @@
+<div class="alert-toaster" [class.closePopup]=" closePopup">
+    <p>Login as User/Admin to access its pages</p>
+    <button class="close-btn" (click)="closeBtn()">X</button>
+</div>
+<div class="container">
+    <button (click)="login('user')">Login As User</button>
+    <button (click)="login('admin')">Login As Admin</button>
+
+</div>
+<p>Logging In as User will redirect to dashboard page</p>
+<p>Logging In as Admin will redirect to Admin Panel</p>
